@@ -2,12 +2,12 @@ var https = require('https');
 var fs = require("fs");
 
 var options = {
-	host: 'asofavkjfjmc.iot.us-east-1.amazonaws.com',
+	host: 'a2fwqsvztqp1jm-ats.iot.us-west-2.amazonaws.com',
 	port: 8443,
 	path: '/greengrass/discover/thing/Moisture',
 	method: 'GET',
-	key: fs.readFileSync("./moisture/certs/Moisture.private.key"),
-	cert: fs.readFileSync("./moisture/certs/Moisture.cert.pem"),
+	key: fs.readFileSync("./Moisture.private.key"),
+	cert: fs.readFileSync("./Moisture.cert.pem"),
 	ca: fs.readFileSync("root-CA.crt")
 };
 
