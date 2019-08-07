@@ -2,7 +2,7 @@ var https = require('https');
 var fs = require("fs");
 
 var options = {
-	host: 'asofavkjfjmc.iot.us-east-1.amazonaws.com',
+	host: 'a2fwqsvztqp1jm-ats.iot.us-west-2.amazonaws.com',
 	port: 8443,
 	path: '/greengrass/discover/thing/Moisture',
 	method: 'GET',
